@@ -10,7 +10,8 @@
     text-align: center;
     margin-top: 5rem;
     background-color: orange;
-    border-radius: 20px;
+    border-radius: 20px; 
+    
    }
    
 
@@ -114,7 +115,63 @@
       font-size: 12px;
      
   
+     } 
+   
+     .dark {
+      background-color: black;
+      font-size: 12px;
      }
+     .blue {
+      background-color:blue ;
+      font-size: 12px;
+     }
+   .red {
+      background-color: red;
+      font-size: 12px;
+   }
+   .green {
+      background-color: green;
+      font-size: 12px;
+   }
+   .gray {
+      background-color:gray ;
+      font-size: 12px;
+   }
+   .brown {
+      background-color:brown ;
+      font-size: 12px;
+   }
+   .orange {
+      background-color:orange ;
+      font-size: 12px;
+   }
+
+   .col-sm-2 {
+      width: 18%;
+   }
+   .container {
+      
+      height: 25rem;
+       
+      
+     }
+  
+}
+
+@media screen and ( min-width : 601px) and ( max-width : 970px){
+    
+   .icons input {
+    
+      
+      
+      padding: 1rem;
+      border-radius: 50px;
+      font-size: 12px;
+     
+  
+     }
+    
+ 
      .dark {
       background-color: black;
       font-size: 12px;
@@ -145,12 +202,8 @@
    }
   
 }
-
-@media screen and ( min-width : 601px) and ( max-width : 970px){
-    
-
    
-}
+
   
     
     
