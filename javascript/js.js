@@ -12,7 +12,7 @@ var btn   = document.querySelectorAll('.btn'),
 
     container = document.querySelector('.container')
 
-   
+    
     btnColor.forEach((button)=>{
 
         button.addEventListener('click',(atrr)=>{
@@ -35,7 +35,7 @@ var btn   = document.querySelectorAll('.btn'),
     
     clear.addEventListener('click', ()=> {
     
-        
+        result.value = null
     })
 
 
