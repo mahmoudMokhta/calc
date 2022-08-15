@@ -12,7 +12,7 @@ var btn   = document.querySelectorAll('.btn'),
 
     container = document.querySelector('.container')
 
-    result.value = '0'
+   
     btnColor.forEach((button)=>{
 
         button.addEventListener('click',(atrr)=>{
@@ -35,13 +35,18 @@ var btn   = document.querySelectorAll('.btn'),
     
     clear.addEventListener('click', ()=> {
     
-        result.value = "0"
+        
     })
 
 
     equal.addEventListener('click',()=>{
 
-        result.value = eval(result.value)
+        
+        if (result.value != "") {
+            result.value = eval(result.value)
+        }else{
+            result.value = null
+        }
 
 
     })
